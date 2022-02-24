@@ -1,0 +1,179 @@
+html{
+    height: 100%;
+}
+
+.container1{
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+    margin-bottom: 290px;;
+}
+body{
+    margin: auto;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: #00051b;
+
+}
+
+#gif{
+    height: 100%;
+    width: 100%;
+    filter: blur(7px);
+    margin-left: -25px;
+    margin-right: -18px;
+    margin-top: -18px;
+ 
+}
+.title{
+    margin-top: -950px;
+    color: white;
+    font-size: 48px;
+    line-height: 1.25;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0 0 161px rgb(0 0 0);
+    text-align: left;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 701px;
+}
+
+
+
+a{
+	text-decoration: none;
+}
+
+
+.in,.system{
+    padding: 5px;
+    text-align: center;
+    background-color:  #023158;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    width: 38%;
+    margin-left: 5%;
+
+}
+
+.in, .system{
+    height: 123px;
+    margin-top: 50px;
+    width: 38%;
+    margin-left: 5%;
+    font-size: 25px;
+	
+
+}
+
+
+.au{
+	padding: 5px;
+    text-align: center;
+    background-color: #000000;
+    border: solid 1px #50e700;
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    margin: auto 25% 10px;
+}
+
+.abo, .im, .ordServ, .localPacient, .cadMat,.solicitaCompra, .cadMed, .entUnic, .agnCon, .agenEx, .gestAgenCir,.aba, .aberturaOrdem,.solicitaCompra{
+	background-color: white;
+	text-transform: uppercase;
+    cursor: pointer;
+    color: black;
+}
+
+.abo, .agnCon, .cadMed, .gestAgenCir, .agenEx,.localPacient, .agnCon, .cadMed, .gestAgenCir, .agenEx,.localPacient{
+	background-color: white;
+	padding: 10px;
+    color: black;
+}
+.in, .system{
+    font-size: 29px;
+    text-transform: uppercase;
+    border-color: #023158;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    border-radius: 82px;
+    margin-bottom: 5px;
+
+}
+
+
+.in{
+	margin-top: 103px;
+}
+
+
+.imn,.imn2, .localPacExp, .aberturaOrdemExp, .cadMatExp,.cadMedExp,.entUnicExp,.agnConExp,.agenExExp,.gestAgenCirExp,.solicitaCompraExp,.conectImp{
+	font-size: 19px;
+
+}
+
+
+.logo{
+	height: 118%;
+	margin-top: 70px;
+}
+
+.imcont, .imcont2{
+	width: 89%;
+    margin: 20px 14px 50px 14px;
+    align-items: center;
+}
+
+
+.im,.imn,.imn2,.localPacExp, .aberturaOrdemExp,.solicitaCompraExp,.cadMatExp,.cadMedExp,.entUnicExp,.agnConExp,.agenExExp,.gestAgenCirExp,.localPacient,.aberturaOrdem,.cadMat,.solicitaCompra,.cadMed,.agnCon,.agenEx,.gestAgenCir,.entUnic,.documentos,.conectImp{
+	padding: 5px;
+	display: none; 
+    width: 32%;
+    margin-left: 8%;
+}
+
+footer{
+	text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 8%;
+    font-size: 14px;
+}
+
+a{
+	color: white;
+}
+
+.documentos{
+    height: 100px;
+    border-radius: 77%;
+
+}
+
+
+.im,.localPacient,.solicitaCompra,.aberturaOrdem,.cadMat,.cadMed,.entUnic,.agnCon,.agenEx,.gestAgenCir{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 21px;
+    border-style: solid;
+    border-radius: 84px;
+
+}
+
+.conectImp,.localPacExp, .aberturaOrdemExp,.solicitaCompraExp,.cadMatExp,.cadMedExp,.entUnicExp,.agnConExp,.agenExExp,.gestAgenCirExp{
+    display: none;
+    color: rgb(0, 5, 27);
+    background: linear-gradient(190deg, white, rgb(2, 49, 88));
+    border-radius: 5px;
+}
+
+.design{
+    float: right;
+    width: 28%;
+    margin-right: 35px;
+}
